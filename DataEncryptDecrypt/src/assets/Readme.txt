@@ -1,0 +1,1 @@
+link sprint planning: https://docs.google.com/spreadsheets/d/19YeaqWtX72JPn_KDex4uAR-6iyD3t5Uh/edit#gid=607650446
