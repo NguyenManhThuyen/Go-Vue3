@@ -21,7 +21,7 @@ func Encrypt(app *fiber.App) {
 	}
 
 	// Lưu khóa riêng tư vào file
-	privateKeyFile, err := os.Create("RSA_Algorithm/file/private.pem")
+	privateKeyFile, err := os.Create("RSA_Algorithm/File/private.pem")
 	if err != nil {
 		fmt.Println("Không thể tạo file private.pem:", err)
 		return
@@ -87,7 +87,7 @@ func Encrypt(app *fiber.App) {
 	fmt.Println("Đã lưu dữ liệu đã mã hóa vào file RSA_Algorithm/file/encrypted.bin")
 }
 
-func Decrypt (app *fiber.App){
+func Decrypt(app *fiber.App) {
 	// Đọc khóa riêng tư từ file
 	privateKeyFile, err := os.Open("RSA_Algorithm/file/private.pem")
 	if err != nil {
