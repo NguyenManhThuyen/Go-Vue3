@@ -11,6 +11,8 @@ var messageList = map[string]string{
 	"KEY_NOT_FOUND":   "MSG_S0000", // key error not found
 	"SYSTEM_ERROR":    "MSG_S0001", // system error
 	"TOKEN_INCORRECT": "MSG_S0002", // token invalid
+	"GET_DATA_FAIL":"MSG_RE0001", //get data fail
+	"GET_DATA_SUCCESS" : 
 
 	"USERNAME_PASSWORD_INCORRECT": "MSG_N0000",
 }
