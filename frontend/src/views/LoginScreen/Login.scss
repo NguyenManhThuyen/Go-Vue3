@@ -1,0 +1,21 @@
+.mytitle {
+    font-size: 1.5rem !important;
+}
+.app-bar{
+    position: relative;
+    z-index: 0;
+}
+.body {
+    position: relative;
+    z-index: 1;
+}
+.main{
+    background: url('/vuetify-project/vuetify-project/src/assets/logo.shoppe.png') ;
+    background-size: cover;
+}
+.mytitle-right{
+    margin-right: 0%;
+}
+.content {
+    margin-top: 10%;
+}
